@@ -1,7 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ImpliedVolatility:jar">
+  <artifact type="jar" build-on-make="true" name="ImpliedVolatility:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/ImpliedVolatility_jar</output-path>
     <root id="archive" name="ImpliedVolatility.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/MainClasses/META-INF/MANIFEST.MF" />
+      </element>
       <element id="module-output" name="ImpliedVolatility" />
     </root>
   </artifact>
