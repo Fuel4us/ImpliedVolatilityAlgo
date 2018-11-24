@@ -1,7 +1,7 @@
 package MainClasses;
 
 import Algorithm.ImpliedVolatility;
-import Stocks.StockSearch;
+import Stocks.StockQueries;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -16,8 +16,11 @@ public class Main {
         ImpliedVolatility impliedVolatility = new ImpliedVolatility(valueToRisk, iv);
         impliedVolatility.operationCall();
 
-        /*StockSearch stockSearch = new StockSearch("ANET");
-        stockSearch.stockCaller();*/
-
+//        String name = JOptionPane.showInputDialog(null, "Ticker of the Stock you want");
+//        StockQueries stockQueries = new StockQueries(name);
+//        JOptionPane.showMessageDialog(null,"Current stock price " +stockQueries.StockPriceQuery().toPlainString());
+//        JOptionPane.showMessageDialog(null,"Stock day change " +stockQueries.StockChange());
+//        JOptionPane.showMessageDialog(null,"Stock day bid " +stockQueries.StockBid());
+//        JOptionPane.showMessageDialog(null,"Stock day ask " +stockQueries.StockAsk());
         }
 }
