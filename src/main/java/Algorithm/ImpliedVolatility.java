@@ -1,3 +1,5 @@
+package Algorithm;
+
 import javax.swing.*;
 
 /**
@@ -13,7 +15,11 @@ public class ImpliedVolatility {
         this.iv = iv;
     }
 
-    public void operation() {
+    public void operationCall() {
+      operation();
+    }
+
+    private void operation() {
         if (iv > 100) {
             JOptionPane.showMessageDialog(null, "IV above 100. Just spend the ammount you want to spend");
         } else {

@@ -1,3 +1,7 @@
+package MainClasses;
+
+import Algorithm.ImpliedVolatility;
+
 import javax.swing.*;
 
 public class Main {
@@ -8,6 +12,6 @@ public class Main {
         double iv = Double.parseDouble(JOptionPane.showInputDialog(null, "How much is the implied volatility ?"));
 
         ImpliedVolatility impliedVolatility = new ImpliedVolatility(valueToRisk, iv);
-        impliedVolatility.operation();
+        impliedVolatility.operationCall();
         }
 }

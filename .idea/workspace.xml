@@ -6,10 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00ee07aa-2953-49ca-92b8-de0226d83eb5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainClasses/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="00ee07aa-2953-49ca-92b8-de0226d83eb5" name="Default" comment="added maven dependency and refactored the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ImpliedVolatility_jar/ImpliedVolatility.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ImpliedVolatility_jar/ImpliedVolatility.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImpliedVolatility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainClasses/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="180">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file leaf-file-name="ImpliedVolatility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ImpliedVolatility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
@@ -65,6 +65,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Gonçalo Fonseca &lt;goncalo7bfc@gmail.com&gt;" />
         <option value="Gonçalo Fonseca &lt;(goncalo7bfc@gmail.com)&gt;" />
       </list>
     </option>
@@ -125,31 +126,12 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ImpliedVolatility" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImpliedVolatility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImpliedVolatility" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImpliedVolatility" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImpliedVolatility" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImpliedVolatility" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImpliedVolatility" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImpliedVolatility" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="ImpliedVolatility_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImpliedVolatility" type="b2602c69:ProjectViewProjectNode" />
@@ -189,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,6 +181,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +223,7 @@
       <workItem from="1541691746089" duration="725000" />
       <workItem from="1542475048870" duration="341000" />
       <workItem from="1543026686794" duration="1171000" />
-      <workItem from="1543028053055" duration="236000" />
+      <workItem from="1543028053055" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="added maven dependency and refactored the project">
       <created>1543028281260</created>
@@ -248,14 +232,22 @@
       <option name="project" value="LOCAL" />
       <updated>1543028281260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added maven dependency and refactored the project">
+      <created>1543028307108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543028307108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3723000" />
+    <option name="totallyTimeSpent" value="4233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,7 +258,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -379,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ImpliedVolatility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#436#437#0" expanded="true" />
@@ -390,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClasses/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="180">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
